@@ -1,0 +1,33 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    background-color: #433d60;
+    font-family: "Montserrat";
+}
+
+.main {
+    background-color: #433d60;
+    width: 100%;
+}
+
+.nav-link {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.header-button1, .header-button2 {
+    width: 154px;
+    height: 48px;
+    background-color: #433d60;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 12px;
+}
+
+.header-button2 {
+    background: rgb(129, 118, 175);
+    background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 100%);
+    color: #343045;
+    border: none;
+}
