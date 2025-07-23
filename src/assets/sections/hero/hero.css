@@ -63,3 +63,17 @@
 .hero-bottom-inner {
     margin-top: 103px;
 }
+
+.hero-bottom-line {
+    width: 1px;
+    border: 1px solid #C0B7E854;
+    height: 117px;
+}
+
+.carousel {
+background: #3A3456F2;
+background: radial-gradient(circle, rgba(58, 52, 86, 1) 0%, rgba(33, 30, 46, 1) 99%);
+    border-radius: 90px;
+    height: 109px;
+}
+
