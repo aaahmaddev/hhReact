@@ -43,6 +43,11 @@
     justify-content: space-evenly;
 }
 
+.hero-arrow:hover {
+    transition: 0.2s;
+    margin-left: 15px;
+}
+
 .location-top-text,
 .call-top-text,
 .email-top-text {
@@ -71,9 +76,8 @@
 }
 
 .carousel {
-background: #3A3456F2;
-background: radial-gradient(circle, rgba(58, 52, 86, 1) 0%, rgba(33, 30, 46, 1) 99%);
+    background: #3A3456F2;
+    background: radial-gradient(circle, rgba(58, 52, 86, 1) 0%, rgba(33, 30, 46, 1) 99%);
     border-radius: 90px;
     height: 109px;
 }
-

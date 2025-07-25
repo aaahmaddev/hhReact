@@ -9,7 +9,12 @@ import MailImg from '../../Images/mail.png'
 
 
 const index = () => {
+
+
+    
     return (
+
+
 
         <>
 
@@ -57,7 +62,9 @@ const index = () => {
                                 </div>
                             </div>
                             {/* Bottom  */}
-                            <div className="hero-bottom d-lg-block d-none">
+
+
+                            <div className="hero-bottom d-lg-block d-none" data-aos="zoom-in">
                                 <div className="hero-bottom-inner d-flex align-items-center justify-content-around">
                                     <div
                                         className="location-box d-flex align-items-center col-12 col-lg-auto justify-content-center justify-content-lg-start">

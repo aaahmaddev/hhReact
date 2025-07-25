@@ -1,4 +1,4 @@
-header{
+header {
     position: sticky;
     top: 0;
     z-index: 9;
@@ -12,11 +12,12 @@ header{
 }
 
 .nav-link {
-    font-weight: 700;
-    font-size: 12px;
+    font-size: 12px !important;
+    color: #fff !important;
 }
 
-.header-button1, .header-button2 {
+.header-button1,
+.header-button2 {
     width: 154px;
     height: 48px;
     background-color: #433d60;
@@ -30,4 +31,20 @@ header{
     background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 100%);
     color: #343045;
     border: none;
+}
+
+.header-inner{
+    width: 30%;
+}
+
+@media (max-width: 1199.98px) {
+    .header-button1,
+    .header-button2{
+        width: 100%;
+    }
+
+.header-inner{
+    width: 100%;
+}
+
 }
